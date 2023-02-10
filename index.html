@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TRIVIA</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1> Bienvenidos(as) </h1>
+        <p> TRIVIA DE DISNEY </p>
+        <p>Demuestra cuánto sabes de Disney </p>
+    </header>
+
+    <div class="container">
+
+        <section id="p0">
+            <h3>1. ¿Quién es la primera villana de Disney? </h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Ursula
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> La reina malvada
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Maléfica
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2. ¿Cuántos dedos tiene Mickey Mouse? </h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> 5
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> 3
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> 4
+            </label>
+        </section>
+
+        <section id="p2">
+            <h3>3. ¿Cuál fue el primer clásico de Disney? </h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Blanca Nieves
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Pinocho
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Alicia
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4. ¿La princesa Disney más jóven es? </h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Ariel
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Blanca Nieves
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Aurora
+            </label>
+        </section>
+
+        <section id="p4">
+            <h3>5. ¿Cuál es el nombre original de Mickey Mouse? </h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Pluto
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Mortimer
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Donald
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR ✔</button>
+        <h2> Cantidad acertada: <span id="resultado"></span></h2>
+
+    </div>
+
+    <script src="index.js"></script>
+
+    <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> -->
+</body>
+
+</html>
