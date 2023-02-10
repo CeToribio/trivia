@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
   font-family: 'Balsamic Sans';
 }
 
@@ -7,25 +7,29 @@ body {
   height: 100%;
   width: 100%;
 }
-header{
+
+header {
   text-align: center;
   background: #1F4690;
   color: #fff;
   padding: 10px;
 }
-.container{
+
+.container {
   max-width: 700px;
   margin: auto;
   padding: 20px;
 }
-section{
+
+section {
   background: #FFE5B4;
   border: 2px solid #FFA500;
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
 }
-label{
+
+label {
   display: block;
   padding: 7px;
   border-radius: 7px;
@@ -33,10 +37,12 @@ label{
   border: 1px dashed #3A5BA0;
   margin-bottom: 3px;
 }
-label:hover{
+
+label:hover {
   background: #FFA500;
 }
-button{
+
+button {
   width: 80%;
   display: block;
   margin: auto;
@@ -47,14 +53,17 @@ button{
   cursor: pointer;
   border-radius: 20px;
 }
-button:hover{
+
+button:hover {
   background: #FFA500;
   color: #fff;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-#resultado{
+
+#resultado {
   font-size: 30px;
   color: darkred;
 }
